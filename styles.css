@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #c8e6c9;
+  background-color: #00bcd4;
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -12,12 +12,13 @@ body {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
-  color: #00796b;
+  color: #1c1c1c;
 }
 
 form {
@@ -30,7 +31,8 @@ label {
   font-weight: bold;
 }
 
-input, select {
+input,
+select {
   padding: 8px;
   margin-top: 5px;
   border-radius: 5px;
@@ -40,7 +42,7 @@ input, select {
 button {
   margin-top: 20px;
   padding: 10px;
-  background-color: #00796b;
+  background-color: #1c1c1c;
   color: white;
   border: none;
   border-radius: 5px;
@@ -69,7 +71,7 @@ button:hover {
   font-weight: bold;
   text-decoration: none;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease, transform 0.2s ease;
   width: 40%;
   margin-left: 27%;
@@ -92,7 +94,7 @@ button:hover {
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s ease, transform 0.2s ease;
   z-index: 1000;
 }
